@@ -30,6 +30,7 @@ service contractTermsService {
     action PostExcelAttachments(sAction : String, aMasterCTAAttachments: many MasterCTAAttachments)returns String;
     function GetContractRequests(aFilters: many String, sStatusString : String) returns many String;
 
+    function test(sAction : String)returns String;
 
 
 }
